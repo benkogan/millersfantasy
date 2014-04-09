@@ -1,0 +1,52 @@
+@font-face{
+  font-family: "Silkscreen Expanded";
+  src: url('slkscre.ttf'),
+  /* url('font/slkscre.eot') for IE */
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+html
+{
+  height: 100%;
+  background: -webkit-linear-gradient(#5395E3, #C2DAF5); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#5395E3, #C2DAF5); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#5395E3, #C2DAF5); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient(#5395E3, #C2DAF5);
+  background: linear-gradient(#5395E3, #C2DAF5); /* Standard syntax */
+}
+
+.center {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.miller-logo {
+    width: 550px;
+    vertical-align: top;
+    margin-top: 40%;
+    margin-bottom: 10%;
+}
+
+.software-list li { list-style-type: none; }
+
+.software-list a {
+  font-family: "Silkscreen Expanded";
+  font-size: 120%;
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px 1px 0px #317AD0;
+  line-height: 1.4em;
+}
+
+.software-list a:hover {
+  color: #317AD0;
+  text-shadow: -1px 1px 0px white;
+}
