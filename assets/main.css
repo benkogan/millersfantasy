@@ -1,7 +1,12 @@
-@font-face{
-  font-family: "Silkscreen Expanded";
-  src: url('slkscre.ttf'),
-  /* url('font/slkscre.eot') for IE */
+@font-face {
+    font-family: 'silkscreen_expandednormal';
+    src: url('font/slkscre-webfont.eot');
+    src: url('font/slkscre-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/slkscre-webfont.woff') format('woff'),
+         url('font/slkscre-webfont.ttf') format('truetype'),
+         url('font/slkscre-webfont.svg#silkscreen_expandednormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -38,7 +43,7 @@ html
 .software-list li { list-style-type: none; }
 
 .software-list a {
-  font-family: "Silkscreen Expanded";
+  font-family: 'silkscreen_expandednormal';
   font-size: 120%;
   text-decoration: none;
   color: white;
